@@ -67,12 +67,16 @@ NeuralNetworkFinal.py ← Standalone trainer script
 
 ### Prerequisites
 
-- Python 3.8 or later
+- Python **3.12** (recommended) — pygame does not yet ship pre-built wheels for Python 3.13/3.14, so installation will fail on those versions
 - pip
+
+> **Note:** If you have a newer Python (3.13+), install Python 3.12 from [python.org](https://www.python.org/downloads/) alongside it. Then create the virtual environment with `py -3.12 -m venv venv` instead of the command below.
 
 ### Install dependencies
 
 ```bash
+py -3.12 -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
